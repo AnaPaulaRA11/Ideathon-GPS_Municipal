@@ -11,8 +11,8 @@ O Sistema será separado entre **Client** e **Server**.
 
 O **Server** terá como função:
 
- * Permitr que a prefeitura registre incidentes que possam interferir no fluxo de trânsito habitual.
- * Montar rotas para percorrer a cidade, levando em consideração todos os incidentes a alterações no trânsito cadastrados.
+ * Permitir que a prefeitura registre incidentes que possam interferir no fluxo de trânsito habitual.
+ * Montar rotas para percorrer a cidade, levando em consideração todos os incidentes e alterações no trânsito cadastrados.
  * Emitir alertas aos **Client**s sobre novos incidentes registrados.
 
 O **Client** terá como função:
