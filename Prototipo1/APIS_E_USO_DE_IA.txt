@@ -1,0 +1,31 @@
+GPS MUNICIPAL DE ARAÇATUBA
+APIs utilizadas e declaração de uso de inteligência artificial
+
+
+1. SERVIÇO EXTERNO DE MAPAS
+
+OpenStreetMap — serviço de imagens do mapa (tiles).
+Endereço utilizado: https://tile.openstreetmap.org/{z}/{x}/{y}.png
+Finalidade: carregar o mapa de fundo exibido na interface.
+
+2. COMUNICAÇÃO EM TEMPO REAL E APIs DO NAVEGADOR
+
+WebSocket — /ws
+Envia à interface notificações de registro e encerramento de ocorrências. A interface verifica se afetam a rota ativa e oferece a opção de recalcular o trajeto.
+
+Fetch API
+Utilizada pelo JavaScript para enviar requisições HTTP à API própria e receber os dados em JSON.
+
+3. BIBLIOTECAS E PROCESSAMENTO LOCAL
+
+Leaflet: biblioteca JavaScript utilizada para exibir o mapa, desenhar rotas e adicionar marcadores. Está incluída na pasta frontend/vendor; não é um serviço externo de cálculo de rotas.
+
+FastAPI: framework utilizado para implementar a API própria e a conexão WebSocket.
+
+
+5. DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL
+
+- Geração de imagens para o projeto.
+- Criação e ajustes de CSS para a estilização das interfaces.
+- Esclarecimento de dúvidas durante o desenvolvimento.
+- Sugestões de ideias e melhorias para o projeto.
